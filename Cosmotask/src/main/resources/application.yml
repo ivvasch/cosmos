@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: cosmotask
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: cosmotask
+server:
+  port: 9090
