@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cosmotask
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:9091
+

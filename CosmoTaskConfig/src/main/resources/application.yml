@@ -1,0 +1,9 @@
+server:
+  port: 9091
+encrypt:
+  key: secretkey
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

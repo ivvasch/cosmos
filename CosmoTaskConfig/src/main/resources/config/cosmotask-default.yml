@@ -1,0 +1,8 @@
+example:
+  property: default
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  enabled-by-default: true
